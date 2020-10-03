@@ -14,11 +14,13 @@
 
       // 👇🏻 if else باستخدام number قم باختبار قيمة العدد
       // () استخدم الشرط المناسب بين القوسين
-      if (condition) {
+      let number = 4 
+      if (number%2==0 ) {
         document.getElementById("numberType").innerHTML =
           number + " هو عدد زوجي";
-      } else if (condition) {
-        // هل تستطيع إكمال الكود المطلوب هنا؟
+      } else if (number%2==1) {
+        document.getElementById("numberType").innerHTML =
+          number + "هو عدد فردي ";
       }
     </script>
   </body>
